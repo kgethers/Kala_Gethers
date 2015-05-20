@@ -11,4 +11,8 @@ time.sleep(3) #set this wait for as long as the movement will take
 
 def move_foward(feet): #make a function that takes in a number of feet and moves the robot foward that far
 
-move_foward(
+enc_tgt(1,1,18)
+time.sleep(.1)
+fwd()
+time.sleep(.5)
+
